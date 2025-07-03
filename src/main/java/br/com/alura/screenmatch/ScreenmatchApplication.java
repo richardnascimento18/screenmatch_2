@@ -16,8 +16,6 @@ public class ScreenmatchApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
 		EnvLoader.load();
-		Dotenv dotenv = Dotenv.configure().load();
-		System.out.println("Loaded DB_PASS: " + dotenv.get("DB_PASS"));
 		SpringApplication.run(ScreenmatchApplication.class, args);
 	}
 
