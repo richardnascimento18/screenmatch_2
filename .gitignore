@@ -19,6 +19,8 @@ target/
 *.iml
 *.ipr
 
+pgdata/
+
 ### ENVS ###
 .env
 
